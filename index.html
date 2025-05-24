@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lirik Playlist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Lirik Playlist</h1>
+    </header>
+
+    <section class="playlist">
+      <button onclick="loadSong(0)">Lagu 1</button>
+    </section>
+
+    <section class="player">
+      <audio id="audio" controls></audio>
+      <div class="controls">
+        <button onclick="playAudio()">Play</button>
+        <button onclick="pauseAudio()">Pause</button>
+      </div>
+      <div class="lyric" id="lyricBox">[Lirik akan tampil di sini]</div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+      </html>
